@@ -2,7 +2,7 @@ class Dog
   
   @@all = []
 
-  def intialize(dog_name)
+  def initialize(dog_name)
     @dog_name = dog_name
     
     @@all.push(self)
