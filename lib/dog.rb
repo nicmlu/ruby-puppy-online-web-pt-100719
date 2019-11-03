@@ -4,9 +4,11 @@ class Dog
 
   def initialize(dog_name)
     @dog_name = dog_name
-    
-    @@all.push(self)
+    save
+  end
   
+  def save
+    @@all.push(self)
   end
     
   def self.all
